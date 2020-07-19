@@ -1,0 +1,2 @@
+# AWS_FACEDETECTION
+This face detection app is using the telegram bot, services of AWS cloud such as EC2 instance, S3 and Amazon Rekognition. Overwiew of the project: The telegram bot will be used to upload the image to EC2, it will then store that particular image to S3, after this step Amazon rekognition will be invoked by S3 and it will identify the features from the image and return the count of the people in the image to the user as a reply of the input image.
