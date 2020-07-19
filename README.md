@@ -3,6 +3,8 @@ This face detection app is using the telegram bot, services of AWS cloud such as
 
 
 STEP 1: Create a telegram bot usig botfather.
+
+
 STEP 2: Create an EC2 instance on AWS cloud, I have made a linux based instance. To connect to the linux based instance. I have used PUTTY.
 	Now connect to the virtual machine using Putty. Type is SSH and PORT is 22. Make a note of the IP address of your machine.You should have private key. 
 	Public key will be with the instance and private key is needed in order to connect to the server. Convert pem to ppk using Puttygen.
@@ -10,7 +12,11 @@ STEP 2: Create an EC2 instance on AWS cloud, I have made a linux based instance.
 	After that you will prompted for Username which is "ec2-user" on PUTTY Console. Then you will be successfully connected to your virtual machine.
 	Now install the APACHE server in the VM. Command:
 	sudo yum install httpd 		//download and install httpd
+	
+	
+	
 STEP 3: Upload the image from EC2 to S3 using PHP CODE1.
+
 STEP 4: EC2 and Rekognition:
 	- go to the running instance
 	- Use CODE2 for rekognition run it and then rekognition will detect the number of faces.
